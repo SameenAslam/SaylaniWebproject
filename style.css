@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    size: 100px;
+}
+.menu{
+    float: right;
+    margin-top: 28px;
+}
+.logo img {
+    width: 150pxpx;
+    height: 70px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 5px 15px;
+    color: black;
+    font-size: 15px;
+}
+.menu ul li a:hover {
+    background-color: #316dc3;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+marquee{
+    background-color: #316dc3;
+
+}
+h3.main-title{
+    text-align: center;
+    margin: 0 auto;
+    color: #316dc3;
+}
+.second-color{
+    color: #8dc63f;
+}
+.info-text{
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.article{
+    background-color: white;
+    margin-top: 5px;
+     padding: 60px 10px 15px 10px;
+    -moz-box-shadow: 0 0 10px #A9A9A9;
+    -webkit-box-shadow: 0 0 10px #A9A9A9;
+    box-shadow: 0 0 10px #A9A9A9;
+    }
+.separator{
+        width: 70px;
+        height: 3px;
+        background-color: green;
+        display: block;
+    }
+.project{
+        background-color: whitesmoke;
+    }
+.upcomingprojects marquee{
+        height: 200px;
+    }
+.images{
+        margin: 10px 40px 40px 10px;
+        
+    }
+    .icon{       
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+    
+    }
+    .fa-phone{
+        color: green;
+    }
+    .fa-envelope{
+        color: green;
+    }
+    
